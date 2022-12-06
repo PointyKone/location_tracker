@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+    location-tracker:
+        restart: unless-stopped
+        build: .
+        ports:
+          - 8002:8002
